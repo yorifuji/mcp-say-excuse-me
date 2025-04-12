@@ -4,18 +4,25 @@ This is an MCP server that plays the "ちょっといいですか" sound.
 
 ## Requirements
 
-- MCP client
-- Node.js
-
-## Setup
-
-```bash
-npm install
-```
+- Node.js (If you clone this repository)
 
 ## Installation
 
-Register the server in your MCP client configuration (e.g., `mcp.json`):
+Add the following to your MCP client configuration (e.g., `mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "mcp-say-excuse-me": {
+      "command": "npx",
+      "args": ["-y", "mcp-say-excuse-me"],
+      "alwaysAllow": ["say_excuse_me"]
+    }
+  }
+}
+```
+
+If you clone this repository and run `npm install`, you can use the following configuration:
 
 ```json
 {
