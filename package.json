@@ -7,6 +7,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "bin": {
+    "mcp-say-excuse-me": "./index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
