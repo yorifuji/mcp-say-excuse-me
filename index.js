@@ -12,7 +12,7 @@ import { say_excuse_me } from "./say_excuse_me.js";
 const server = new Server(
   {
     name: "say-excuse-me-server",
-    version: "1.0.0",
+    version: "1.0.1",
   },
   {
     capabilities: {
