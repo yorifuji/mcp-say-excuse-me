@@ -35,8 +35,6 @@ server.tool(
 
 const transport = new StdioServerTransport();
 await server.connect(transport);
-console.error("Say Excuse Me MCP server running on stdio");
-
 process.on("SIGINT", async () => {
   await server.close();
   process.exit(0);
