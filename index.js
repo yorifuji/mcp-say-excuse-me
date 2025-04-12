@@ -13,8 +13,8 @@ server.tool(
   'Plays the "ちょっといいですか" sound',
   async () => {
     return say_excuse_me()
-      .then(() => ({
-        content: [{ type: "text", text: 'Played "ちょっといいですか"' }],
+      .then((text) => ({
+        content: [{ type: "text", text: text }],
       }))
       .catch((error) => {
         console.error(`MCP Error: ${error.message}`);

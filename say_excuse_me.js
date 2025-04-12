@@ -16,7 +16,7 @@ export async function say_excuse_me() {
         return;
       }
       console.log(`stdout: ${stdout}`);
-      resolve(stdout);
+      resolve('Played "ちょっといいですか"');
     });
   });
 }
