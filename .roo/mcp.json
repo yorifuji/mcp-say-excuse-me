@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "say-excuse-me-server": {
+      "command": "node",
+      "args": ["index.js"],
+      "alwaysAllow": ["say_excuse_me"]
+    }
+  }
+}

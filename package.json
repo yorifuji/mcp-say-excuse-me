@@ -1,0 +1,16 @@
+{
+  "name": "mcp-say-excuse-me",
+  "version": "1.0.0",
+  "description": "MCP server to play 'ちょっといいですか' sound",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0"
+  }
+}
