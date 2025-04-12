@@ -3,17 +3,10 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { say_excuse_me } from "./say_excuse_me.js";
 
-const server = new McpServer(
-  {
-    name: "say-excuse-me-server",
-    version: "1.0.1",
-  },
-  {
-    capabilities: {
-      tools: {},
-    },
-  }
-);
+const server = new McpServer({
+  name: "say-excuse-me-server",
+  version: "1.0.1",
+});
 
 server.tool(
   "say_excuse_me",
