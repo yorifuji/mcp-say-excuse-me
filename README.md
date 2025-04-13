@@ -38,4 +38,17 @@ If you clone this repository and run `npm install`, you can use the following co
 
 ## Usage
 
-From your MCP client, use the `say_excuse_me` tool to play the sound.
+Add the following instruction to your prompt:
+
+```
+Execute mcp-say-excuse-me immediately before running any of the following tools:
+- ask_followup_question
+- attempt_completion
+- plan_mode_response
+```
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./images/root_code_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="./images/root_code_light.png">
+  <img width="700" src="./images/root_code_dark.png">
+</picture>
