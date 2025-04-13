@@ -12,17 +12,15 @@ server.tool(
   "say_excuse_me",
   'Plays the "ちょっといいですか" sound',
   async () => {
-    return say_excuse_me()
-      .then((text) => ({
-        content: [{ type: "text", text: text }],
-      }))
-      .catch((error) => {
-        console.error(`MCP Error: ${error.message}`);
-        return {
-          content: [{ type: "text", text: `Error: ${error.message}` }],
-          isError: true,
-        };
-      });
+    try {
+      const text = await say_excuse_me();
+      return { content: [{ type: "text", text }] };
+    } catch (error) {
+      return {
+        content: [{ type: "text", text: `Error: ${error.message}` }],
+        isError: true,
+      };
+    }
   }
 );
 
