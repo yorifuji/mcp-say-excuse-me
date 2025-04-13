@@ -48,7 +48,7 @@ Execute mcp-say-excuse-me immediately before running any of the following tools:
 ```
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./images/root_code_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./images/root_code_light.png">
-  <img width="700" src="./images/root_code_dark.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/299c21e1-6407-4020-9f09-6ef8e33fe685">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/568be3f8-7986-4f4a-a005-5e15bd539fde">
+  <img width="700" src="https://github.com/user-attachments/assets/299c21e1-6407-4020-9f09-6ef8e33fe685">
 </picture>
